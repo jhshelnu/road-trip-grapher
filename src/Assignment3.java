@@ -93,6 +93,6 @@ public class Assignment3 {
         // Create application window and render results
         JFrame app = initApp();
         DrivePanel mainPanel = new DrivePanel(coordinates);
-        app.add(mainPanel);
+        app.add(mainPanel).revalidate();
     }
 }
